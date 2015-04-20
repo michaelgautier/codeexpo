@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SFML App Framework Eval Program v2" />
+		<Option pch_mode="2" />
+		<Option compiler="clang" />
+		<Option virtualFolders="Program/;ProgramConfiguration/;MVCViews/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SFML App Framework Eval Program v2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="../SFMLAppFrameworkv2/bin/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SFML App Framework Eval Program v2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="../SFMLAppFrameworkv2/bin/Release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add directory="../SFMLAppFrameworkv2" />
+		</Compiler>
+		<Linker>
+			<Add library="libgautiergui.a" />
+			<Add library="libsfml-graphics" />
+			<Add library="libsfml-window" />
+			<Add library="libsfml-system" />
+		</Linker>
+		<Unit filename="main.cpp">
+			<Option virtualFolder="Program/" />
+		</Unit>
+		<Unit filename="program.cpp">
+			<Option virtualFolder="Program/" />
+		</Unit>
+		<Unit filename="program.h">
+			<Option virtualFolder="Program/" />
+		</Unit>
+		<Unit filename="programviewfirstview.cpp">
+			<Option virtualFolder="MVCViews/" />
+		</Unit>
+		<Unit filename="programviewfirstview.h">
+			<Option virtualFolder="MVCViews/" />
+		</Unit>
+		<Unit filename="programwindowviewname.cpp">
+			<Option virtualFolder="ProgramConfiguration/" />
+		</Unit>
+		<Unit filename="programwindowviewname.h">
+			<Option virtualFolder="ProgramConfiguration/" />
+		</Unit>
+		<Unit filename="windowviewmanager.cpp">
+			<Option virtualFolder="MVCViews/" />
+		</Unit>
+		<Unit filename="windowviewmanager.h">
+			<Option virtualFolder="MVCViews/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

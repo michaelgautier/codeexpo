@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1410843611 source:/cnt/native-source-codes/SFMLAppFrameworkv2/inputpropertieskeyboard.cpp
+	"inputpropertieskeyboard.h"
+
+1409863473 /cnt/native-source-codes/SFMLAppFrameworkv2/inputpropertieskeyboard.h
+	<string>
+	"visualcommon.h"
+
+1409864807 /cnt/native-source-codes/SFMLAppFrameworkv2/visualcommon.h
+	<vector>
+	<SFML/Graphics.hpp>
+	"rangeareasizexywh.h"
+	"rangecoord.h"
+	"rangesizewh.h"
+
+1409863510 /cnt/native-source-codes/SFMLAppFrameworkv2/rangeareasizexywh.h
+	"rangecoord.h"
+	"rangesizewh.h"
+
+1409863504 /cnt/native-source-codes/SFMLAppFrameworkv2/rangecoord.h
+
+1409863498 /cnt/native-source-codes/SFMLAppFrameworkv2/rangesizewh.h
+
+1410843635 source:/cnt/native-source-codes/SFMLAppFrameworkv2/inputpropertiesmouse.cpp
+	"inputpropertiesmouse.h"
+
+1409863483 /cnt/native-source-codes/SFMLAppFrameworkv2/inputpropertiesmouse.h
+	"visualcommon.h"
+
+1409775428 source:/cnt/native-source-codes/SFMLAppFrameworkv2/inputpropertieswindow.cpp
+	"inputpropertieswindow.h"
+
+1409863489 /cnt/native-source-codes/SFMLAppFrameworkv2/inputpropertieswindow.h
+	<SFML/Window.hpp>
+	"visualcommon.h"
+
+1409191325 source:/cnt/native-source-codes/SFMLAppFrameworkv2/rangeareasizexywh.cpp
+	"rangeareasizexywh.h"
+
+1409191315 source:/cnt/native-source-codes/SFMLAppFrameworkv2/rangecoord.cpp
+	"rangecoord.h"
+
+1409191303 source:/cnt/native-source-codes/SFMLAppFrameworkv2/rangesizewh.cpp
+	"rangesizewh.h"
+
+1409846052 source:/cnt/native-source-codes/SFMLAppFrameworkv2/visualcommon.cpp
+	"visualcommon.h"
+
+1410843576 source:/cnt/native-source-codes/SFMLAppFrameworkv2/windoweventcontroller.cpp
+	"windoweventcontroller.h"
+
+1409863463 /cnt/native-source-codes/SFMLAppFrameworkv2/windoweventcontroller.h
+	"windoweventmodel.h"
+
+1409864184 /cnt/native-source-codes/SFMLAppFrameworkv2/windoweventmodel.h
+	<SFML/Window.hpp>
+	"inputpropertieskeyboard.h"
+	"inputpropertiesmouse.h"
+	"inputpropertieswindow.h"
+
+1409846263 source:/cnt/native-source-codes/SFMLAppFrameworkv2/windoweventmodel.cpp
+	"windoweventmodel.h"
+
+1410848173 source:/cnt/native-source-codes/SFMLAppFrameworkv2/programwindow.cpp
+	"programwindow.h"
+	"visualsettings.h"
+	"visualcommon.h"
+	"colorspec.h"
+
+1410848127 /cnt/native-source-codes/SFMLAppFrameworkv2/programwindow.h
+	<SFML/Graphics.hpp>
+	"visualcommon.h"
+	"windoweventmodel.h"
+	"visualsettings.h"
+	"visualwindow.h"
+
+1410843553 source:/cnt/native-source-codes/SFMLAppFrameworkv2/viewsstandardcontroller.cpp
+	"viewsstandardcontroller.h"
+	<memory>
+
+1409947633 /cnt/native-source-codes/SFMLAppFrameworkv2/viewsstandardcontroller.h
+	<memory>
+	"viewsstandardmodel.h"
+	"mvcviewbase.h"
+	"visualcommon.h"
+
+1409947648 /cnt/native-source-codes/SFMLAppFrameworkv2/viewsstandardmodel.h
+	"visualcommon.h"
+
+1409888932 /cnt/native-source-codes/SFMLAppFrameworkv2/mvcviewbase.h
+	<memory>
+	"visualcommon.h"
+	"windoweventmodel.h"
+
+1409892125 source:/cnt/native-source-codes/SFMLAppFrameworkv2/viewsstandardmodel.cpp
+	"viewsstandardmodel.h"
+	"visualcommon.h"
+
+1409883364 source:/cnt/native-source-codes/SFMLAppFrameworkv2/mvcviewbase.cpp
+	"mvcviewbase.h"
+	"visualcommon.h"
+
+1409965397 /cnt/native-source-codes/SFMLAppFrameworkv2/visualsettings.h
+	"visualcommon.h"
+	"colorspec.h"
+
+1409965311 source:/cnt/native-source-codes/SFMLAppFrameworkv2/visualsettings.cpp
+	"visualsettings.h"
+	"visualcommon.h"
+	"colorspec.h"
+
+1409966056 /cnt/native-source-codes/SFMLAppFrameworkv2/colorspec.h
+	"visualcommon.h"
+
+1409966085 source:/cnt/native-source-codes/SFMLAppFrameworkv2/colorspec.cpp
+	"colorspec.h"
+	"visualcommon.h"
+
+1410848607 /cnt/native-source-codes/SFMLAppFrameworkv2/visualwindow.h
+	<memory>
+	<SFML/Graphics.hpp>
+	"visualcommon.h"
+
+1410847223 source:/cnt/native-source-codes/SFMLAppFrameworkv2/visualwindow.cpp
+	"visualwindow.h"
+

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SFML App Framework v2" />
+		<Option pch_mode="2" />
+		<Option compiler="clang" />
+		<Option virtualFolders="Framework/;Framework/VisualFundamentals/;Framework/InteractionDeviceFundamentals/;Framework/MVCControllers/;Framework/MVCModels/;Framework/DimensionalFundamentals/;Framework/MVCViews/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gautiergui" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="clang" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gautiergui" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="clang" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-ftrapv" />
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+		</Linker>
+		<Unit filename="colorspec.cpp">
+			<Option virtualFolder="Framework/VisualFundamentals/" />
+		</Unit>
+		<Unit filename="colorspec.h">
+			<Option virtualFolder="Framework/VisualFundamentals/" />
+		</Unit>
+		<Unit filename="inputpropertieskeyboard.cpp">
+			<Option virtualFolder="Framework/InteractionDeviceFundamentals/" />
+		</Unit>
+		<Unit filename="inputpropertieskeyboard.h">
+			<Option virtualFolder="Framework/InteractionDeviceFundamentals/" />
+		</Unit>
+		<Unit filename="inputpropertiesmouse.cpp">
+			<Option virtualFolder="Framework/InteractionDeviceFundamentals/" />
+		</Unit>
+		<Unit filename="inputpropertiesmouse.h">
+			<Option virtualFolder="Framework/InteractionDeviceFundamentals/" />
+		</Unit>
+		<Unit filename="inputpropertieswindow.cpp">
+			<Option virtualFolder="Framework/InteractionDeviceFundamentals/" />
+		</Unit>
+		<Unit filename="inputpropertieswindow.h">
+			<Option virtualFolder="Framework/InteractionDeviceFundamentals/" />
+		</Unit>
+		<Unit filename="mvcviewbase.cpp">
+			<Option virtualFolder="Framework/MVCViews/" />
+		</Unit>
+		<Unit filename="mvcviewbase.h">
+			<Option virtualFolder="Framework/MVCViews/" />
+		</Unit>
+		<Unit filename="programwindow.cpp">
+			<Option virtualFolder="Framework/VisualFundamentals/" />
+		</Unit>
+		<Unit filename="programwindow.h">
+			<Option virtualFolder="Framework/VisualFundamentals/" />
+		</Unit>
+		<Unit filename="rangeareasizexywh.cpp">
+			<Option virtualFolder="Framework/DimensionalFundamentals/" />
+		</Unit>
+		<Unit filename="rangeareasizexywh.h">
+			<Option virtualFolder="Framework/DimensionalFundamentals/" />
+		</Unit>
+		<Unit filename="rangecoord.cpp">
+			<Option virtualFolder="Framework/DimensionalFundamentals/" />
+		</Unit>
+		<Unit filename="rangecoord.h">
+			<Option virtualFolder="Framework/DimensionalFundamentals/" />
+		</Unit>
+		<Unit filename="rangesizewh.cpp">
+			<Option virtualFolder="Framework/DimensionalFundamentals/" />
+		</Unit>
+		<Unit filename="rangesizewh.h">
+			<Option virtualFolder="Framework/DimensionalFundamentals/" />
+		</Unit>
+		<Unit filename="viewsstandardcontroller.cpp">
+			<Option virtualFolder="Framework/MVCControllers/" />
+		</Unit>
+		<Unit filename="viewsstandardcontroller.h">
+			<Option virtualFolder="Framework/MVCControllers/" />
+		</Unit>
+		<Unit filename="viewsstandardmodel.cpp">
+			<Option virtualFolder="Framework/MVCModels/" />
+		</Unit>
+		<Unit filename="viewsstandardmodel.h">
+			<Option virtualFolder="Framework/MVCModels/" />
+		</Unit>
+		<Unit filename="visualcommon.cpp">
+			<Option virtualFolder="Framework/VisualFundamentals/" />
+		</Unit>
+		<Unit filename="visualcommon.h">
+			<Option virtualFolder="Framework/VisualFundamentals/" />
+		</Unit>
+		<Unit filename="visualsettings.cpp">
+			<Option virtualFolder="Framework/VisualFundamentals/" />
+		</Unit>
+		<Unit filename="visualsettings.h">
+			<Option virtualFolder="Framework/VisualFundamentals/" />
+		</Unit>
+		<Unit filename="visualwindow.cpp">
+			<Option virtualFolder="Framework/VisualFundamentals/" />
+		</Unit>
+		<Unit filename="visualwindow.h">
+			<Option virtualFolder="Framework/VisualFundamentals/" />
+		</Unit>
+		<Unit filename="windoweventcontroller.cpp">
+			<Option virtualFolder="Framework/MVCControllers/" />
+		</Unit>
+		<Unit filename="windoweventcontroller.h">
+			<Option virtualFolder="Framework/MVCControllers/" />
+		</Unit>
+		<Unit filename="windoweventmodel.cpp">
+			<Option virtualFolder="Framework/MVCModels/" />
+		</Unit>
+		<Unit filename="windoweventmodel.h">
+			<Option virtualFolder="Framework/MVCModels/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
