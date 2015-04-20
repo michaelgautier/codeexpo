@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1425703151 source:/home/michaelgautier/Source/column_feed/column_feed/main.cpp
+	<string>
+	<iomanip>
+	<iostream>
+	<fstream>
+	<array>
+	<vector>
+
