@@ -36,14 +36,18 @@
 			</Target>
 		</Build>
 		<Compiler>
+			<Add option="-std=c++98" />
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="central.cpp" />
 		<Unit filename="central.hpp" />
+		<Unit filename="confv.cpp" />
 		<Unit filename="confv.hpp" />
 		<Unit filename="interactionexplore.cpp" />
 		<Unit filename="interactionexplore.hpp" />
+		<Unit filename="interactionhold.cpp" />
+		<Unit filename="interactionhold.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

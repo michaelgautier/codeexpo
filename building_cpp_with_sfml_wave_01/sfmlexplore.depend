@@ -1,17 +1,20 @@
 # depslib dependency file v1.0
-1406044527 source:/home/michaelgautier/projects/sfmlexplore/main.cpp
+1406844903 source:/home/michaelgautier/projects/sfmlexplore/main.cpp
 
-1406087756 source:/home/michaelgautier/projects/sfmlexplore/central.cpp
+1406872955 source:/home/michaelgautier/projects/sfmlexplore/central.cpp
 	"confv.hpp"
 	"interactionexplore.hpp"
-	<SFML/Graphics.hpp>
+	"interactionhold.hpp"
 	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Window/Mouse.hpp>
 
-1406089167 /home/michaelgautier/projects/sfmlexplore/confv.hpp
+1406846059 /home/michaelgautier/projects/sfmlexplore/confv.hpp
 	<string>
 	<SFML/Graphics.hpp>
 
-1406086194 /home/michaelgautier/projects/sfmlexplore/interactionexplore.hpp
+1406844474 /home/michaelgautier/projects/sfmlexplore/interactionexplore.hpp
 	<SFML/Graphics/RectangleShape.hpp>
 
 1374391808 /usr/include/SFML/Graphics/RectangleShape.hpp
@@ -348,6 +351,91 @@
 	<string>
 	<vector>
 
-1406086194 source:/home/michaelgautier/projects/sfmlexplore/interactionexplore.cpp
+1406846011 source:/home/michaelgautier/projects/sfmlexplore/interactionexplore.cpp
 	"confv.hpp"
+
+1406846094 source:/home/michaelgautier/projects/sfmlexplore/confv.cpp
+	<string>
+	<SFML/Graphics.hpp>
+	"confv.hpp"
+
+1406150661 source:/home/michaelgautier/projects/sfmlexplore/inputexplore.cpp
+	"inputexplore.hpp"
+
+1406150227 /home/michaelgautier/projects/sfmlexplore/inputexplore.hpp
+	<SFML/Graphics/RectangleShape.hpp>
+
+1406872389 /home/michaelgautier/projects/sfmlexplore/interactionhold.hpp
+	<string>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+
+1406873337 source:/home/michaelgautier/projects/sfmlexplore/interactionhold.cpp
+	"central.hpp"
+	"confv.hpp"
+	"interactionexplore.hpp"
+	"interactionhold.hpp"
+	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1406871819 /home/michaelgautier/projects/sfmlexplore/central.hpp
+	"confv.hpp"
+	"interactionexplore.hpp"
+	"interactionhold.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/Window/Mouse.hpp>
+	<string>
+
+1406873478 source:/cnt/native-source-codes/sfmlexplore/central.cpp
+	"confv.hpp"
+	"interactionexplore.hpp"
+	"interactionhold.hpp"
+	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1406846059 /cnt/native-source-codes/sfmlexplore/confv.hpp
+	<string>
+	<SFML/Graphics.hpp>
+
+1406844474 /cnt/native-source-codes/sfmlexplore/interactionexplore.hpp
+	<SFML/Graphics/RectangleShape.hpp>
+
+1406872389 /cnt/native-source-codes/sfmlexplore/interactionhold.hpp
+	<string>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+
+1406846094 source:/cnt/native-source-codes/sfmlexplore/confv.cpp
+	<string>
+	<SFML/Graphics.hpp>
+	"confv.hpp"
+
+1406846011 source:/cnt/native-source-codes/sfmlexplore/interactionexplore.cpp
+	"confv.hpp"
+
+1406873337 source:/cnt/native-source-codes/sfmlexplore/interactionhold.cpp
+	"central.hpp"
+	"confv.hpp"
+	"interactionexplore.hpp"
+	"interactionhold.hpp"
+	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1406871819 /cnt/native-source-codes/sfmlexplore/central.hpp
+	"confv.hpp"
+	"interactionexplore.hpp"
+	"interactionhold.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/Window/Mouse.hpp>
+	<string>
+
+1406844903 source:/cnt/native-source-codes/sfmlexplore/main.cpp
 

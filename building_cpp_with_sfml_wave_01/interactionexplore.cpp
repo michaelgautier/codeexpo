@@ -1,19 +1,30 @@
 ﻿#include "interactionexplore.hpp"
 #include "confv.hpp"
-void interactionexplore::parentframechangedsize(const sf::Vector2u& newsize) {
-	sf::Vector2f calculatedsize = calculateequidistantpadding(newsize);
+void gautier::interactionexplore::buildrenderstate(const sf::Vector2u& newsize) {
+	_parentsize = newsize;/*May need some validation logic to check if the size actually changed.*/
 
-	setSize(calculatedsize);
+	sizebackgroundlayout();
 
-	sf::Vector2f calculatedposition = sf::Vector2f(0,0);//calculateposition(newsize);
-
-	setPosition(calculatedposition);
-
-	update();
+	_parentprevioussize = sf::Vector2u(newsize);
 
 	return;
 }
-sf::Vector2f interactionexplore::calculateposition(const sf::Vector2u& parentsize) {
+void gautier::interactionexplore::sizebackgroundlayout() {
+	if(_parentsize != _parentprevioussize) {
+		sf::Vector2f calculatedsize = calculateequidistantpadding(_parentsize);
+
+		setSize(calculatedsize);
+
+		sf::Vector2f calculatedposition = calculateposition(_parentsize);
+
+		setPosition(calculatedposition);
+
+		setFillColor(confv::centralwindowdefaultcolor);
+	}
+
+	return;
+}
+sf::Vector2f gautier::interactionexplore::calculateposition(const sf::Vector2u& parentsize) {
 	sf::Vector2f presentsize = getSize();
 
 	const float calculatedx = (parentsize.x - presentsize.x) / 2.0;
@@ -23,9 +34,9 @@ sf::Vector2f interactionexplore::calculateposition(const sf::Vector2u& parentsiz
 
 	return calculatedposition;
 }
-sf::Vector2f interactionexplore::calculateequidistantpadding(const sf::Vector2u& parentsize) {
-	const float calculatedw = (parentsize.x-confv::centralframepaddingx());
-	const float calculatedh = (parentsize.y-confv::centralframepaddingy());
+sf::Vector2f gautier::interactionexplore::calculateequidistantpadding(const sf::Vector2u& parentsize) {
+	const float calculatedw = (parentsize.x-confv::centralframepaddingx);
+	const float calculatedh = (parentsize.y-confv::centralframepaddingy);
 
 	const sf::Vector2f calculatedsize = sf::Vector2f(calculatedw, calculatedh);
 
