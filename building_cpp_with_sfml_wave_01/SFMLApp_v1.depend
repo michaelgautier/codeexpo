@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1407803145 source:/cnt/native-source-codes/SFMLApp_v1/main.cpp
+	"program.h"
+
+1407527003 source:/cnt/native-source-codes/SFMLApp_v1/appwindowhost.cpp
+	"appwindowhost.h"
+
+1407527003 /cnt/native-source-codes/SFMLApp_v1/appwindowhost.h
+
+1407980529 source:/cnt/native-source-codes/SFMLApp_v1/componentkeyboard.cpp
+	"componentkeyboard.h"
+
+1407980408 /cnt/native-source-codes/SFMLApp_v1/componentkeyboard.h
+	<vector>
+	"compositegraphic.h"
+	"windoweventmodel.h"
+
+1407793371 source:/cnt/native-source-codes/SFMLApp_v1/compositgraphic.cpp
+	"compositgraphic.h"
+
+1407798490 /cnt/native-source-codes/SFMLApp_v1/compositgraphic.h
+	<vector>
+
+1407980493 source:/cnt/native-source-codes/SFMLApp_v1/inputpropertieskeyboard.cpp
+	"inputpropertieskeyboard.h"
+
+1407980364 /cnt/native-source-codes/SFMLApp_v1/inputpropertieskeyboard.h
+	<string>
+	"visualcommon.h"
+
+1407980470 source:/cnt/native-source-codes/SFMLApp_v1/inputpropertiesmouse.cpp
+	"inputpropertiesmouse.h"
+
+1407980349 /cnt/native-source-codes/SFMLApp_v1/inputpropertiesmouse.h
+	"visualcommon.h"
+
+1407980437 source:/cnt/native-source-codes/SFMLApp_v1/inputpropertieswindow.cpp
+	"inputpropertieswindow.h"
+
+1407980349 /cnt/native-source-codes/SFMLApp_v1/inputpropertieswindow.h
+	<SFML/Window.hpp>
+	"visualcommon.h"
+
+1407980560 /cnt/native-source-codes/SFMLApp_v1/program.h
+	"windoweventcontroller.h"
+
+1407980857 source:/cnt/native-source-codes/SFMLApp_v1/program.cpp
+	"program.h"
+	"visualcommon.h"
+	"windowcommonimpl.h"
+
+1407980920 source:/cnt/native-source-codes/SFMLApp_v1/windoweventcontroller.cpp
+	"windoweventcontroller.h"
+
+1407980920 /cnt/native-source-codes/SFMLApp_v1/windoweventcontroller.h
+	"windoweventmodel.h"
+
+1407980021 source:/cnt/native-source-codes/SFMLApp_v1/windoweventmodel.cpp
+	"windoweventmodel.h"
+
+1407980002 /cnt/native-source-codes/SFMLApp_v1/windoweventmodel.h
+	<SFML/Window.hpp>
+	"inputpropertieskeyboard.h"
+	"inputpropertiesmouse.h"
+	"inputpropertieswindow.h"
+
+1407980123 source:/cnt/native-source-codes/SFMLApp_v1/windowviewcommonimpl.cpp
+	"windowviewcommonimpl.h"
+
+1407980108 /cnt/native-source-codes/SFMLApp_v1/windowviewcommonimpl.h
+	<SFML/Graphics.hpp>
+	"compositegraphic.h"
+	"windoweventmodel.h"
+
+1407944699 source:/cnt/native-source-codes/SFMLApp_v1/windowviewscreen1.cpp
+	"windowviewscreen1.h"
+
+1407963533 /cnt/native-source-codes/SFMLApp_v1/windowviewscreen1.h
+	"windoweventmodel.h"
+	"windowviewcommonimpl.h"
+
+1407980384 /cnt/native-source-codes/SFMLApp_v1/compositegraphic.h
+	<vector>
+	<SFML/Graphics.hpp>
+	"visualcommon.h"
+
+1407961073 /cnt/native-source-codes/SFMLApp_v1/programcommon.h
+
+1407980512 source:/cnt/native-source-codes/SFMLApp_v1/compositegraphic.cpp
+	"compositegraphic.h"
+
+1407802520 source:/cnt/native-source-codes/SFMLApp_v1/programcommon.cpp
+	"programcommon.h"
+
+1407980873 /cnt/native-source-codes/SFMLApp_v1/windowcommonimpl.h
+	"visualcommon.h"
+	"windoweventmodel.h"
+
+1407980873 source:/cnt/native-source-codes/SFMLApp_v1/windowcommonimpl.cpp
+	"visualcommon.h"
+	"windowcommonimpl.h"
+
+1407956655 source:/cnt/native-source-codes/SFMLApp_v1/fixednumberset4.cpp
+	"fixednumberset4.h"
+
+1407956686 /cnt/native-source-codes/SFMLApp_v1/fixednumberset4.h
+
+1407963710 /cnt/native-source-codes/SFMLApp_v1/quadvalue.h
+
+1407959506 source:/cnt/native-source-codes/SFMLApp_v1/quadvalue.cpp
+	"quadvalue.h"
+
+1407980222 /cnt/native-source-codes/SFMLApp_v1/visualcommon.h
+	<vector>
+	<SFML/Graphics.hpp>
+	"rangeareasizexywh.h"
+	"rangecoord.h"
+	"rangequad.h"
+	"rangesizewh.h"
+
+1407980259 source:/cnt/native-source-codes/SFMLApp_v1/visualcommon.cpp
+	"visualcommon.h"
+
+1407977656 /cnt/native-source-codes/SFMLApp_v1/rangequad.h
+
+1407975300 source:/cnt/native-source-codes/SFMLApp_v1/rangequad.cpp
+	"rangequad.h"
+
+1407978460 source:/cnt/native-source-codes/SFMLApp_v1/rangeareasizexywh.cpp
+	"rangeareasizexywh.h"
+
+1407978763 /cnt/native-source-codes/SFMLApp_v1/rangeareasizexywh.h
+	"rangecoord.h"
+	"rangesizewh.h"
+	"rangequad.h"
+
+1407978398 source:/cnt/native-source-codes/SFMLApp_v1/rangecoord.cpp
+	"rangecoord.h"
+
+1407978106 /cnt/native-source-codes/SFMLApp_v1/rangecoord.h
+
+1407978398 source:/cnt/native-source-codes/SFMLApp_v1/rangesizewh.cpp
+	"rangesizewh.h"
+
+1407977766 /cnt/native-source-codes/SFMLApp_v1/rangesizewh.h
+

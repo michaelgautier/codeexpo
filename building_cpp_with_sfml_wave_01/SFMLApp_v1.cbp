@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SFMLApp_v1" />
+		<Option pch_mode="2" />
+		<Option compiler="clang" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SFMLApp_v1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SFMLApp_v1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-ftrapv" />
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+		</Compiler>
+		<Unit filename="componentkeyboard.cpp" />
+		<Unit filename="componentkeyboard.h" />
+		<Unit filename="compositegraphic.cpp" />
+		<Unit filename="compositegraphic.h" />
+		<Unit filename="inputpropertieskeyboard.cpp" />
+		<Unit filename="inputpropertieskeyboard.h" />
+		<Unit filename="inputpropertiesmouse.cpp" />
+		<Unit filename="inputpropertiesmouse.h" />
+		<Unit filename="inputpropertieswindow.cpp" />
+		<Unit filename="inputpropertieswindow.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="program.cpp" />
+		<Unit filename="program.h" />
+		<Unit filename="rangeareasizexywh.cpp" />
+		<Unit filename="rangeareasizexywh.h" />
+		<Unit filename="rangecoord.cpp" />
+		<Unit filename="rangecoord.h" />
+		<Unit filename="rangequad.cpp" />
+		<Unit filename="rangequad.h" />
+		<Unit filename="rangesizewh.cpp" />
+		<Unit filename="rangesizewh.h" />
+		<Unit filename="visualcommon.cpp" />
+		<Unit filename="visualcommon.h" />
+		<Unit filename="windowcommonimpl.cpp" />
+		<Unit filename="windowcommonimpl.h" />
+		<Unit filename="windoweventcontroller.cpp" />
+		<Unit filename="windoweventcontroller.h" />
+		<Unit filename="windoweventmodel.cpp" />
+		<Unit filename="windoweventmodel.h" />
+		<Unit filename="windowviewcommonimpl.cpp" />
+		<Unit filename="windowviewcommonimpl.h" />
+		<Unit filename="windowviewscreen1.cpp" />
+		<Unit filename="windowviewscreen1.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

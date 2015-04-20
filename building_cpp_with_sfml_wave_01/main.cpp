@@ -1,8 +1,9 @@
-﻿#include "central.hpp"
-using namespace gautier;
-int main() {
-	central centralInstance = central();
-	int exitcode = centralInstance.execute();
+#include "program.h"
+using namespace Gautier::SFMLApp;
 
-	return exitcode;
+int main()
+{
+	Program SFMLAppProgram;
+	SFMLAppProgram.Execute();
+	return 0;
 }
